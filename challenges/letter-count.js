@@ -31,3 +31,26 @@
 */
 
 // YOUR CODE HERE
+
+function letterCount(word){
+
+  //new object to store letters and counts
+  var output = {};
+
+  //new variable for the word after it's split into individual letters
+  var stringArr = word.split('');
+
+  //for each letter of the array, run the following function
+  stringArr.forEach(function(x) {
+    //if the output object already contains the letter
+    if (output[x]) {
+      //add 1 to the letter count
+      output[x] += 1;
+    //if the letter has not yet been added, add the letter as a new key with a value of 1
+    } else {
+      output[x] = 1;
+    }
+  });
+  // After you iterate through the entire word array, return the object
+  return output;
+}
