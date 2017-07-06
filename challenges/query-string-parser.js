@@ -45,3 +45,17 @@
 */
 
 // YOUR CODE HERE
+function parseQueryString(string) {
+  //split query at the ampersand e.g. "a=apple", "b=beet"
+  var queries = string.split("&");
+  //empty object for key value pairs
+  var output = {};
+  //for each pair, run a function that splits each key value pair
+  queries.forEach(function(term) {
+    //variable set that splits the pair at the equal
+    var set = term.split("=");
+    //stores 0 index of set as key, 1 index as value as a new key value pair in the output object
+    output[set[0]] = set[1];
+  });
+  return output;
+}
