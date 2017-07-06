@@ -1,5 +1,8 @@
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Javascript Objects - Problem Set
 
+## Training Reflection
+To be honest, I struggled with this exercise. It was difficult to figure out how to begin, so I ended up looking at the solutions for the letter-count and query-string-parser challenges, and wrote my own comments in an attempt to dissect and comprehend what's going on in the code. I hope to be able to complete the other two challenges with less assistance from the solutions.
+
 * Please **Fork & Clone** this repo.
 * For each problem, modify the relevant file in the `challenges`folder. We encourage you to *commit often* and push your changes to github.
 * In your forked copy of this readme, add a short (3-5 sentence) reflection about your work to the top in a section titled "Training Reflection".
